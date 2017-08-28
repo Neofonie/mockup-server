@@ -1,0 +1,26 @@
+
+{{FILE
+    https?:\/\/[^\/]*\/.foo/bar.*
+    foo/bar.css
+}}
+{{HTML
+    https?:\/\/[^\/]*\/.foo/bar/p/(\d*)/.*
+    <div class="bar">
+        <h1>foo</h1>
+    </div>
+}}
+{{JSON
+    http://www.neofonie.de/
+    {
+        obj: {
+            foo: 'bar',
+            arr: [
+                1,
+                2,
+                3
+            ],
+            x: 1,
+            y: 2
+        }
+    }
+}}
