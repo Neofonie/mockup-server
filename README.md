@@ -1,4 +1,7 @@
 # mockup-server
+
+## **⚠️ THIS PROJECT IS NOW UNMAINTED AND IN READ-ONLY MODE ⚠️**
+
 simple mockup-server
 
 Wofür?
